@@ -20,7 +20,7 @@ export default function Contact() {
       <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
       {submitted ? (
         <div className="p-4 bg-green-100 dark:bg-green-900 rounded">
-          Thank you for reaching out! We'll get back to you soon.
+          Thank you for reaching out! We&apos;ll get back to you soon.
         </div>
       ) : (
         <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
